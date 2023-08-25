@@ -23,7 +23,7 @@ socials_links:
 # paginate_path: 'blog.html'
 
 github:
-  repo:           https://github.com/dytmelisdemir
+  repo:           https://github.com/drmuammer
 
 plugins: [kramdown, rouge]
 
