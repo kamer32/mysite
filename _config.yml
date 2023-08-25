@@ -11,11 +11,11 @@ baseurl:          /
 
 # Custom vars
 socials_links:
-- url: https://github.com/dytmelisdemir
+- url: https://github.com/drmuammer
   class: fab fa-github
 - url: https://dyt.melisdemir@gmail.com
   class: fab icon-mail
-- url: https://www.instagram.com/karaciger_ve_beslenme
+- url: https://www.instagram.com/kirikdr
   class: fab fa-instagram
 - url: https://wa.me/5521801821?
   class: fab icon-whatsapp
