@@ -3,7 +3,7 @@ highlighter: rouge
 markdown: kramdown
 
 # Setup
-title:            Melis Demir
+title:            Muammer Beslen 
 tagline:          'A Personal Page'
 description:      'Personal blog about my cv'
 url:              
@@ -13,11 +13,11 @@ baseurl:          /
 socials_links:
 - url: https://github.com/drmuammer
   class: fab fa-github
-- url: https://dyt.melisdemir@gmail.com
+- url: https://muammer.beslen@gmail.com
   class: fab icon-mail
 - url: https://www.instagram.com/kirikdr
   class: fab fa-instagram
-- url: https://wa.me/5521801821?
+- url: https://wa.me/5412819889?
   class: fab icon-whatsapp
 # paginate: 5
 # paginate_path: 'blog.html'
