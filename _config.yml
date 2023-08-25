@@ -1,0 +1,42 @@
+# Dependencies
+highlighter: rouge
+markdown: kramdown
+
+# Setup
+title:            Melis Demir
+tagline:          'A Personal Page'
+description:      'Personal blog about my cv'
+url:              
+baseurl:          /
+
+# Custom vars
+socials_links:
+- url: https://github.com/dytmelisdemir
+  class: fab fa-github
+- url: https://dyt.melisdemir@gmail.com
+  class: fab icon-mail
+- url: https://www.instagram.com/karaciger_ve_beslenme
+  class: fab fa-instagram
+- url: https://wa.me/5521801821?
+  class: fab icon-whatsapp
+# paginate: 5
+# paginate_path: 'blog.html'
+
+github:
+  repo:           https://github.com/dytmelisdemir
+
+plugins: [kramdown, rouge]
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+collections:
+  works: 
+    output: true 
+
+#custom icons
+favicon: /favicon.ico
+apple_touch_icon: /assets/img/logo.png
+
