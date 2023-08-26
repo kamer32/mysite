@@ -13,7 +13,7 @@ baseurl:          /
 socials_links:
 - url: https://github.com/drmuammer
   class: fab fa-github
-- url: https://https://kaggle.com/muammerbeslen
+- url: https://www.kaggle.com/muammerbeslen
   class: fab icon-duckduckgo
 - url: https://www.instagram.com/kirikdr
   class: fab fa-instagram
