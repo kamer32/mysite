@@ -18,7 +18,7 @@ socials_links:
 - url: https://www.instagram.com/kirikdr
   class: fab fa-instagram
 - url: https://www.codewars.com/users/Drmuammer
-  class: fab icon-whatsapp
+  class: fab icon-pitch
 - url: https://wa.me/5412819889?
   class: fab icon-whatsapp
 # paginate: 5
