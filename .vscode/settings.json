@@ -1,12 +1,20 @@
 {
-  "liveSassCompile.settings.excludeList": [
-    "**/partials/**"
-  ],
-  "liveSassCompile.settings.formats":[
+  "liveSassCompile.settings.excludeList": ["**/partials/**"],
+  "liveSassCompile.settings.formats": [
     {
-        "format": "compressed",
-        "extensionName": ".min.css",
-        "savePath": "/public/css",
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/public/css"
     }
-	]
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
