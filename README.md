@@ -1,2 +1,2 @@
 # mysite
-melisdemir.com
+kudra.com

@@ -3,29 +3,23 @@ highlighter: rouge
 markdown: kramdown
 
 # Setup
-title:            Muammer Beslen 
-tagline:          'A Personal Page'
-description:      'Personal blog about my cv'
+title:            Kudra 
+tagline:          'Bir işletme web sitesi'
+description:      'Kudra markasına ait web sitesi'
 url:              
 baseurl:          /
 
 # Custom vars
 socials_links:
-- url: https://github.com/drmuammer
-  class: fab fa-github
-- url: https://www.kaggle.com/muammerbeslen
-  class: fab icon-duckduckgo
-- url: https://www.instagram.com/kirikdr
+- url: https://www.instagram.com/kudra.handcraft
   class: fab fa-instagram
-- url: https://www.codewars.com/users/Drmuammer
-  class: fab icon-pitch
-- url: https://wa.me/5412819889?
+- url: https://wa.me/5343926290?
   class: fab icon-whatsapp
 # paginate: 5
 # paginate_path: 'blog.html'
 
 github:
-  repo:           https://github.com/drmuammer
+  repo:           https://github.com/kamer32
 
 plugins: [kramdown, rouge]
 
