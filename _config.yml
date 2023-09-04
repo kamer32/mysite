@@ -13,9 +13,11 @@ baseurl:          /
 socials_links:
 - url: https://www.instagram.com/kudra.handcraft
   class: fab fa-instagram
-- url: https://wa.me/5343926290?
+- url:  https://www.trendyol.com/
+  class: fab icon-basket
+- url: https://wa.me/905343926290?
   class: fab icon-whatsapp
-# paginate: 5
+# paginate: 3
 # paginate_path: 'blog.html'
 
 github:

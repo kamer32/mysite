@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: Hakkımızda
 order: 2
 ---
 
@@ -13,7 +13,16 @@ order: 2
 <p>
   <br>Biz, el yapımı sanat eserlerini ve özel tasarımları hayata geçiren bir tutku ve özveri ile kurulmuş bir aile işiyiz.<br> 
   
-  <br>Tokalardan kırlent kılıflarına, çantalardan taç işlemelerine kadar uzanan geniş ürün yelpazemizde, her bir ürünümüz sevgiyle ve özenle tasarlanmıştır. El işçiliği ve yaratıcılığımızla, her ürünümüzü eşsiz kılıyoruz. Online mağazamızda sizleri bekleyen bu sanat eserleri, evinizi ve stilinizi kişiselleştirmeniz için mükemmel fırsatları sunuyor.<br> 
+  <br>Tokalardan kırlent kılıflarına, çantalardan taç işlemelerine kadar uzanan geniş ürün yelpazemizde, her bir ürünümüz sevgiyle ve özenle tasarlanmıştır. El işçiliği ve yaratıcılığımızla, her ürünümüzü eşsiz kılıyoruz. Online mağazamızda sizleri bekleyen bu sanat eserleri, evinizi ve stilinizi kişiselleştirmeniz için mükemmel fırsatları sunuyor.<br>
   
-  <br>Müşterilerimizin memnuniyeti ve ürünlerimizin kalitesi bizim önceliğimizdir. Her zaman müşteri ihtiyaçlarına cevap vermek ve en yüksek kalitede el yapımı ürünleri sunmak için buradayız<br>
+  <br>Müşterilerimizin memnuniyeti ve ürünlerimizin kalitesi bizim önceliğimizdir. Her zaman müşteri ihtiyaçlarına cevap vermek ve en yüksek kalitede el yapımı ürünleri sunmak için buradayız.<br>
 </p>
+
+<div class="works_container">
+  {% for work in site.works %}
+  <!-- {{work.slug}} - Slugified title from the document’s filename (any character except numbers and letters is replaced as hyphen). -->
+  <a href="{{site.baseurl}}works/{{work.slug}}" class="work">
+    <div class="work_bg" style="background:  url({{work.img-url}}) no-repeat center center; width: 100%; height: 100%;background-size: 65%;"></div>
+  </a>
+  {% endfor %}
+</div>
