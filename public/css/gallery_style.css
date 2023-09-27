@@ -1,0 +1,10 @@
+.resim-kutusu {
+    float: left; /* Resim kutularını yan yana sırala */
+    margin: 10px; /* Resim kutuları arasındaki boşluk */
+    width: calc(25% - 20px); /* 4 resim sığması için genişlik hesaplaması */
+}
+
+/* Her 5. resimde alta geç */
+.resim-kutusu:nth-child(3n+1) {
+    clear: left;
+}

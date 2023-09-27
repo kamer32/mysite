@@ -1,0 +1,7 @@
+.thumbnail {
+    max-width: 200px; /* İstediğiniz maksimum genişlik */
+    height: auto;
+    cursor: pointer;
+}
+
+
