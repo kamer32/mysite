@@ -72,7 +72,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 0.25,
+        "speed": 0.3,
         "direction": "bottom-right",
         "random": false,
         "straight": true,
@@ -115,7 +115,7 @@ particlesJS('particles-js',
           "distance": 200
         },
         "push": {
-          "particles_nb": 4
+          "particles_nb": 1
         },
         "remove": {
           "particles_nb": 2
