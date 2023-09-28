@@ -51,7 +51,7 @@ var pJS = function(tag_id, params){
           enable: true,
           random: true,
           speed: 0.1,
-          opacity_min: 0,
+          opacity_min: 0.1,
           sync: false
         }
       },
@@ -127,7 +127,7 @@ var pJS = function(tag_id, params){
       },
       mouse:{}
     },
-    retina_detect: false,
+    retina_detect: true,
     fn: {
       interact: {},
       modes: {},
