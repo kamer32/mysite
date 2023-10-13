@@ -11,13 +11,15 @@ baseurl:          /
 
 # Custom vars
 socials_links:
-- url: https://www.instagram.com/kudra.handcraft
+- url: https://www.instagram.com/kudraatelier
   class: fab fa-instagram
-- url:  https://www.trendyol.com/
+- url:  https://ty.gl/mglwh4bdop
+  class: fab icon-basket
+- url:  https://www.hepsiburada.com/magaza/kudra
   class: fab icon-basket
 - url: https://wa.me/905343926290?
   class: fab icon-whatsapp
-# paginate: 3
+# paginate: 3 
 # paginate_path: 'blog.html'
 
 github:
