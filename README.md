@@ -1,2 +1,2 @@
 # mysite
-kudra.com
+kudraatelier.com
